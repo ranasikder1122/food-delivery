@@ -23,7 +23,7 @@ const Card = ({name,id,image,price,type,qty}) => {
         {name}
         </div>
         <div className='w-full flex justify-between items-center'>
-            <div className='text-slate-500 text-lg font-bold'>Rs {price}/-</div>
+            <div className='text-slate-500 text-lg font-bold'> BD {price}/-</div>
           <div className='flex justify-center items-center text-slate-500 gap-2 text-lg  font-semibold'>
             {type==='veg'?<LuLeafyGreen/>:<GiChickenOven/>}
             <span>{type}</span>

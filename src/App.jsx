@@ -4,9 +4,9 @@ import { ToastContainer } from 'react-toastify'
 
 const App = () => {
   return (
-    <div className=''>
+    <div>
       <Home/>
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   )
 }

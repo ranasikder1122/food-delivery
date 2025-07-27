@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import { useContext, useEffect } from 'react'
 import { IoFastFoodSharp } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
 import { RiShoppingBag3Line } from "react-icons/ri";
