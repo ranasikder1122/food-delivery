@@ -34,7 +34,7 @@ const CardTwo = ({name,id,image,price,qty}) => {
             </div>
         </div>
         <div  className="flex flex-col justify-start items-end gap-6">
-           <span className="text-xl text-slate-400 font-semibold ">Rs {price}/-</span> 
+           <span className="text-xl text-slate-400 font-semibold ">BD {price}/-</span> 
             <RiDeleteBinLine onClick = { handleDelete} className="w-[30px] h-[30px] text-red-500 cursor-pointer hover:bg-red-400 rounded-sm"/>
         </div>
     </div>

@@ -68,21 +68,21 @@ const Home = () => {
          <div className='w-full border-t-2 border-b-2 border-gray-300 mt-7 flex flex-col gap-2 p-8'>
               <div className='w-full flex justify-between items-center'>
                 <span className='text-lg text-gray-600 font-semibold'>SubTotal</span>
-                <span className='text-slate-400 font-semibold text-lg'>Rs {subTotal}/-</span>
+                <span className='text-slate-400 font-semibold text-lg'>BD {subTotal}/-</span>
               </div>
                      <div className='w-full flex justify-between items-center'>
                 <span className='text-lg text-gray-600 font-semibold'>DeliveryFee</span>
-                <span className='text-slate-400 font-semibold text-lg'>Rs {deliveryFee}/-</span>
+                <span className='text-slate-400 font-semibold text-lg'>BD {deliveryFee}/-</span>
               </div>
                      <div className='w-full flex justify-between items-center'>
                 <span className='text-lg text-gray-600 font-semibold'>Taxes</span>
-                <span className='text-slate-400 font-semibold text-lg'>Rs {taxes}/-</span>
+                <span className='text-slate-400 font-semibold text-lg'>BD {taxes}/-</span>
               </div>
          </div>
          <div>  
                  <div className='w-full flex justify-between items-center p-7'>
                 <span className='text-xl text-gray-600 font-semibold'>Total</span>
-                <span className='text-slate-400 font-semibold text-xl'>Rs {totalAmount}/-</span>
+                <span className='text-slate-400 font-semibold text-xl'>BD {totalAmount}/-</span>
               </div>
          <div className='flex justify-center mt-2'>
                <button className='w-[93%] p-3 bg-slate-200 font-bold text-slate-600 rounded-lg hover:bg-slate-400
