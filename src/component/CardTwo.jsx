@@ -27,7 +27,7 @@ const CardTwo = ({name,id,image,price,qty}) => {
                 font-bold border-2 border-slate-400 text-xl ">
                     <button className="w-[30%] h-full bg-white  flex justify-center items-center text-slate-400 hover:bg-slate-200"
                     onClick={handleDecrement}>-</button>
-                    <span  className="w-[40%] h-full bg-yellow-900  text-slate-400 flex justify-center items-center ">{qty}</span>
+                    <span  className="sm:w-[15%] md:w-[40%] h-full bg-yellow-900  text-slate-400 flex justify-center items-center ">{qty}</span>
                     <button  className="w-[30%] h-full bg-white  flex justify-center items-center text-slate-400 hover:bg-slate-200"
                     onClick={ handleIncrementQty}>+</button>
                 </div>
