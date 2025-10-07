@@ -11,7 +11,7 @@ import { TbBurger } from "react-icons/tb";
     {
         id:1,
         name:'all',
-        icon:<IoAppsOutline className="w-[60px] h-[60px] text-slate-500"/>
+        icon:<IoAppsOutline className="w-[60px] h-[60px] text-slate-500 "/>
 
     },
       {

@@ -34,7 +34,7 @@ const Home = () => {
       <Nav/>
       {!input?    <div className='flex justify-center flex-wrap gap-5 items-center w-[100%]'>
           {Categories.map((item)=>{
-            return <div className='w-[140px] h-[150px] bg-white flex flex-col gap-5 items-start
+            return <div className='w-[140px] h-[150px] bg-white flex flex-col gap-5 items-center
             p-5 justify-start text-[20px] font-semibold text-black-600 rounded-lg shadow-xl
             hover:bg-slate-200 cursor-pointer transition-all duration-200 '
             onClick={()=> filterFood(item.name)} >
